@@ -234,7 +234,7 @@
             "settings": {
             },
             "protectedSettings": {
-              "commandToExecute": "sudo apt update -y && sudo apt install lamp-server^ -y && sudo sh -c 'echo \"<?php phpinfo(); ?>\" > /var/www/html/info.php' && sudo apt install wordpress -y"
+              "commandToExecute": "sudo apt update -y && sudo apt install lamp-server^ -y"
             }
           }
         }
